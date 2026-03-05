@@ -8,13 +8,13 @@ body{
     display: flex;
     justify-content: center;
     background-color: white;
-    border-top: 7px groove #034f84;
-    border-bottom: 7px groove #034f84;
-    height: 40px;
+    border-top: 0.5rem groove #034f84;
+    border-bottom: 0.5rem groove #034f84;
+    height: 6.15vh;
 }
 
 #logo{
-    width: 65px;
+    width: 4.7%;
     background:radial-gradient(circle, rgb(223, 223, 223) 0%,  rgb(255, 255, 255) 35%);
 }
 
@@ -22,12 +22,12 @@ body{
     font-family: 'Oswald', sans-serif;
     text-align: center;
     font-style: oblique;
-    letter-spacing: 2px;
+    letter-spacing: 0.13rem;
     text-shadow: 10px 10px 10px black;
 }
 
 #chuteira1{
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .descricao{
@@ -35,19 +35,19 @@ body{
     display: flex;
     align-items: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 15px;
-    margin-bottom: 60px;
+    font-size: 0.9375rem;
+    margin-bottom: 3.75rem;
 }
 
 #descricao-texto{
     background-color:#034f84;
     border-radius: 10px 0 0 10px; 
-    border: 10px outset #cfcfcf;
+    border: 0.66em outset #cfcfcf;
 }
 
 blockquote {
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 1.9rem;
     font-style: italic;
     font-weight: 800;
     color: rgb(0, 5, 20);
@@ -65,14 +65,14 @@ blockquote {
 }
 
 .descricao-paragrafo{
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .galeria{
     display: flex;
     align-items: center; /* centraliza verticalmente os filhos */
-    margin: 20px 0 60px 0;
-    height: 300px;
+    margin: 1.806vh 0 8vh 0;
+    height: 40vh;
 }
 
 .chuteira2{
@@ -92,8 +92,8 @@ blockquote {
     background-color: #034f84;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 25px;
+    padding: 2% 4%;
+    font-size: 1.5rem;
     cursor: pointer;
     border-radius: 999px;
     font-family: 'Oswald', sans-serif;
@@ -104,7 +104,7 @@ blockquote {
 
 footer{
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: rgb(1, 9, 34);
     color: white;
     font-family: 'Oswald', sans-serif;
@@ -114,8 +114,8 @@ footer{
 #principal{
     display: flex;
     justify-content: center;
-    height: 250px;
-    margin-bottom: 60px;
+    height: 30vh;
+    margin-bottom: 3.75rem;
 }
 
 #central{
