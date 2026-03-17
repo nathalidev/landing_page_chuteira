@@ -102,6 +102,12 @@ blockquote {
     box-shadow: 0 4px 12px rgba(201, 198, 198, 0.15);
 }
 
+#btn-comprar:active{
+    background-color: #003255;
+    color: rgb(202, 202, 202);
+    transform: scale(0.8); /* Efeito de clique, o transform com scale aumenta ou diminui o tamanho do elemento */
+}
+
 footer{
     text-align: center;
     padding: 1.25rem;
